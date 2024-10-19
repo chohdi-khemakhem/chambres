@@ -17,8 +17,8 @@ import java.util.Set;
 public class Bloc {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    long idBloc;
-    String nomBloc;
+    long id;
+    String nom;
     long capaciteBloc;
     //ASSOCIATIONS
     @ManyToOne(cascade = CascadeType.ALL)
