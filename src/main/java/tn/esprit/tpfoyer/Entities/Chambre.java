@@ -16,8 +16,8 @@ public class Chambre {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    long idChambre;
-    long numeroChambre;
+    long id;
+    long numero;
     @Enumerated(EnumType.STRING)
     TypeChambre typeChambre;
     
